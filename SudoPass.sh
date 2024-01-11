@@ -33,7 +33,6 @@ echo "2) Letters, Numbers, and Symbols (more secure and complex)."
 echo ""
 
 # Read the user input
-
 while true; do
     read -p "Please enter your choice (1/2, default is 1):" mode
     mode=${mode:-1}
